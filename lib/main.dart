@@ -8,7 +8,6 @@ import 'package:notification_app/resources/auth_method.dart';
 import 'Services/notifi_service.dart';
 import 'auth/auth_log_in_page.dart';
 import 'firebase_options.dart';
-import 'massage/massage.dart';
 
 Future<void> firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   // If you're going to use other Firebase services in the background, such as Firestore,

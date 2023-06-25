@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../Services/notifi_service.dart';
-import '../massage/massage.dart';
 import '../resources/auth_method.dart';
 import '../widget/custom_drawer.dart';
 
@@ -98,10 +97,6 @@ class _HomePageState extends State<HomePage> {
                     body.clear();
                   },
                   child: const Icon(Icons.send),
-                ),
-                const ElevatedButton(
-                  onPressed: sendMassage,
-                  child: Text('data'),
                 ),
               ],
             ),
